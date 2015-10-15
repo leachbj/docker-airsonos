@@ -21,6 +21,6 @@ apt-get -q update && apt-get install -qy \
 #sed -i -e "s/^rlimit-nproc/#rlimit-nproc/g" /etc/avahi/avahi-daemon.conf
 
 cd /var/tmp/
-git clone https://github.com/justintime/airsonos
+git clone https://github.com/leachbj/airsonos
 cd airsonos
 npm install -g
